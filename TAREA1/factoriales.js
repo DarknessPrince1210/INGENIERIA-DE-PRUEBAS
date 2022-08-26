@@ -3,5 +3,5 @@ const factorial=(n)=>{
     return n*factorial(n-1);
 }
 
-
-factorial(6);
+num=prompt("Ingresa un numero: ");
+factorial(num);
